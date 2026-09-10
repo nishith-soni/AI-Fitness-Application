@@ -7,14 +7,10 @@
     <option name="selectedModelId" value="auto" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f48d007-784c-4f60-972e-1ee6c4931574" name="Changes" comment="Add Maven wrapper and configuration files for project setup">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/activityservice/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/activityservice/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/aiservice/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/aiservice/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/userservice/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/userservice/src/main/resources/application.yaml" afterDir="false" />
+    <list default="true" id="5f48d007-784c-4f60-972e-1ee6c4931574" name="Changes" comment="Add project configuration files for encoding, external storage, and modules">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/configserver/src/main/resources/config/gateway.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/configserver/src/main/resources/config/gateway.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/gateway/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,35 +76,35 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Spring Boot.ActivityserviceApplication.executor": "Run",
-    "Spring Boot.AiserviceApplication.executor": "Run",
-    "Spring Boot.EurekaApplication.executor": "Run",
-    "Spring Boot.UserserviceApplication.executor": "Run",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "copilot.chat.legacySessionMetadata.migrated": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Nishith Soni/Desktop/AI Fitness Application",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.jshint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.jshint": "",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.ActivityserviceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.AiserviceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.EurekaApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.UserserviceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;copilot.chat.legacySessionMetadata.migrated&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Nishith Soni/Desktop/AI Fitness Application&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.jshint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.jshint&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.fitness.activityservice.repository" />
@@ -190,8 +186,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-30f59d01ecdd-34e2839f716b-intellij.indexing.shared.core-IU-262.9437.185" />
-        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.9437.185" />
+        <option value="bundled-jdk-30f59d01ecdd-a203e0a19954-intellij.indexing.shared.core-IU-262.10315.125" />
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.10315.125" />
       </set>
     </attachedChunks>
   </component>
@@ -259,7 +255,23 @@
       <option name="project" value="LOCAL" />
       <updated>1788374098616</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Add initial configuration files for gateway and config server">
+      <option name="closed" value="true" />
+      <created>1788458810051</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1788458810051</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Add project configuration files for encoding, external storage, and modules">
+      <option name="closed" value="true" />
+      <created>1788458882267</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1788458882267</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -273,7 +285,9 @@
     <MESSAGE value="Add RabbitMQ integration for activity tracking and recommendations" />
     <MESSAGE value="Add recommendation generation and storage for user activities" />
     <MESSAGE value="Refactor project structure by renaming files and consolidating configuration" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactor project structure by renaming files and consolidating configuration" />
+    <MESSAGE value="Add initial configuration files for gateway and config server" />
+    <MESSAGE value="Add project configuration files for encoding, external storage, and modules" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add project configuration files for encoding, external storage, and modules" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
