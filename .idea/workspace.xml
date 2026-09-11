@@ -7,15 +7,7 @@
     <option name="selectedModelId" value="auto" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f48d007-784c-4f60-972e-1ee6c4931574" name="Changes" comment="Add OAuth2 resource server configuration and dependencies for gateway security">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/gateway/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/userservice/src/main/java/com/fitness/userservice/dto/RegisterRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/userservice/src/main/java/com/fitness/userservice/dto/RegisterRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/userservice/src/main/java/com/fitness/userservice/dto/UserResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/userservice/src/main/java/com/fitness/userservice/dto/UserResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/userservice/src/main/java/com/fitness/userservice/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/userservice/src/main/java/com/fitness/userservice/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/userservice/src/main/java/com/fitness/userservice/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/userservice/src/main/java/com/fitness/userservice/repository/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/userservice/src/main/java/com/fitness/userservice/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/userservice/src/main/java/com/fitness/userservice/service/UserService.java" afterDir="false" />
-    </list>
+    <list default="true" id="5f48d007-784c-4f60-972e-1ee6c4931574" name="Changes" comment="Add Keycloak user synchronization filter and update user registration flow" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -286,7 +278,15 @@
       <option name="project" value="LOCAL" />
       <updated>1789004601025</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Add Keycloak user synchronization filter and update user registration flow">
+      <option name="closed" value="true" />
+      <created>1789107046821</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1789107046821</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -303,7 +303,8 @@
     <MESSAGE value="Add initial configuration files for gateway and config server" />
     <MESSAGE value="Add project configuration files for encoding, external storage, and modules" />
     <MESSAGE value="Add OAuth2 resource server configuration and dependencies for gateway security" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add OAuth2 resource server configuration and dependencies for gateway security" />
+    <MESSAGE value="Add Keycloak user synchronization filter and update user registration flow" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Keycloak user synchronization filter and update user registration flow" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
