@@ -7,10 +7,14 @@
     <option name="selectedModelId" value="auto" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f48d007-784c-4f60-972e-1ee6c4931574" name="Changes" comment="Add project configuration files for encoding, external storage, and modules">
+    <list default="true" id="5f48d007-784c-4f60-972e-1ee6c4931574" name="Changes" comment="Add OAuth2 resource server configuration and dependencies for gateway security">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/configserver/src/main/resources/config/gateway.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/configserver/src/main/resources/config/gateway.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/gateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/userservice/src/main/java/com/fitness/userservice/dto/RegisterRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/userservice/src/main/java/com/fitness/userservice/dto/RegisterRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/userservice/src/main/java/com/fitness/userservice/dto/UserResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/userservice/src/main/java/com/fitness/userservice/dto/UserResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/userservice/src/main/java/com/fitness/userservice/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/userservice/src/main/java/com/fitness/userservice/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/userservice/src/main/java/com/fitness/userservice/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/userservice/src/main/java/com/fitness/userservice/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/userservice/src/main/java/com/fitness/userservice/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/userservice/src/main/java/com/fitness/userservice/service/UserService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,6 +119,9 @@
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Nishith Soni\Desktop\AI Fitness Application\backend" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.fitness.gateway.user" />
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.AiserviceApplication">
@@ -271,7 +278,15 @@
       <option name="project" value="LOCAL" />
       <updated>1788458882267</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Add OAuth2 resource server configuration and dependencies for gateway security">
+      <option name="closed" value="true" />
+      <created>1789004601025</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1789004601025</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -287,7 +302,8 @@
     <MESSAGE value="Refactor project structure by renaming files and consolidating configuration" />
     <MESSAGE value="Add initial configuration files for gateway and config server" />
     <MESSAGE value="Add project configuration files for encoding, external storage, and modules" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add project configuration files for encoding, external storage, and modules" />
+    <MESSAGE value="Add OAuth2 resource server configuration and dependencies for gateway security" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add OAuth2 resource server configuration and dependencies for gateway security" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
