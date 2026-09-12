@@ -7,9 +7,7 @@
     <option name="selectedModelId" value="auto" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f48d007-784c-4f60-972e-1ee6c4931574" name="Changes" comment="feat: add CORS configuration and implement activity API service">
-      <change beforePath="$PROJECT_DIR$/frontend/src/services/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/services/api.js" afterDir="false" />
-    </list>
+    <list default="true" id="5f48d007-784c-4f60-972e-1ee6c4931574" name="Changes" comment="feat: enhance activity tracking by adding user ID support and authorization token handling" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -296,7 +294,15 @@
       <option name="project" value="LOCAL" />
       <updated>1789254156277</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="feat: enhance activity tracking by adding user ID support and authorization token handling">
+      <option name="closed" value="true" />
+      <created>1789254765495</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1789254765495</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -315,7 +321,8 @@
     <MESSAGE value="Add OAuth2 resource server configuration and dependencies for gateway security" />
     <MESSAGE value="Add Keycloak user synchronization filter and update user registration flow" />
     <MESSAGE value="feat: add CORS configuration and implement activity API service" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add CORS configuration and implement activity API service" />
+    <MESSAGE value="feat: enhance activity tracking by adding user ID support and authorization token handling" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: enhance activity tracking by adding user ID support and authorization token handling" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
