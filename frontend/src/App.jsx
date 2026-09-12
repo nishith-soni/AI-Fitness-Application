@@ -32,15 +32,29 @@ function App() {
   return (
     <Router>
       {!token ? (
-      <Button variant="contained" color="#007bff"
-              onClick={() => {
-                logIn();
-              }}> LOGIN </Button>
+              <Box
+                sx={{
+                  height: "100vh",
+                  display: "flex",
+                  flexDirection: "column",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  textAlign: "center",
+                }}
+              >
+                <Typography variant="h4" gutterBottom>
+                  Welcome to the Fitness Tracker App
+                </Typography>
+                <Typography variant="subtitle1" sx={{ mb: 3 }}>
+                  Please login to access your activities
+                </Typography>
+                <Button variant="contained" color="primary" size="large" onClick={() => {
+                          logIn();
+                        }}>
+                  LOGIN
+                </Button>
+              </Box>
             ) : (
-              // <div>
-              //   <pre>{JSON.stringify(tokenData, null, 2)}</pre>
-              // </div>
-
               <Box components="section" sx={{ p:2, border: '1px dashed grey'}}>
                 <Routes>
                   <Route path="/activities" element={<ActivitiesPage />} />
