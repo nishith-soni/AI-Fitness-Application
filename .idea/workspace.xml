@@ -7,7 +7,10 @@
     <option name="selectedModelId" value="auto" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f48d007-784c-4f60-972e-1ee6c4931574" name="Changes" comment="Add Keycloak user synchronization filter and update user registration flow" />
+    <list default="true" id="5f48d007-784c-4f60-972e-1ee6c4931574" name="Changes" comment="Add Keycloak user synchronization filter and update user registration flow">
+      <change beforePath="$PROJECT_DIR$/backend/gateway/src/main/java/com/fitness/gateway/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/gateway/src/main/java/com/fitness/gateway/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/ActivityForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/ActivityForm.jsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

@@ -1,5 +1,7 @@
 import { Box, FormControl, MenuItem } from '@mui/material'
 import React, { useState } from 'react'
+import { InputLabel, Select, TextField, Button } from '@mui/material'
+import { addActivity } from '../services/api'
 
 const ActivityForm = ({ onActivityAdded }) => {
 
@@ -15,7 +17,7 @@ const ActivityForm = ({ onActivityAdded }) => {
             onActivityAdded();
             setActivity({ type: "RUNNING", duration: '', caloriesBurned: ''});
         } catch (error) {
-            
+            console.error('Error adding activity:', error);
         }
     }
 
