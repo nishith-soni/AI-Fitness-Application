@@ -7,7 +7,10 @@
     <option name="selectedModelId" value="auto" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f48d007-784c-4f60-972e-1ee6c4931574" name="Changes" comment="feat: enhance activity tracking by adding user ID support and authorization token handling" />
+    <list default="true" id="5f48d007-784c-4f60-972e-1ee6c4931574" name="Changes" comment="feat: enhance activity tracking by adding user ID support and authorization token handling">
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/ActivityDetail.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/ActivityDetail.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/ActivityList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/ActivityList.jsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
